@@ -1,0 +1,173 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+body {
+  font-family: 'Raleway', sans-serif;
+}
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+nav .brand-logo {
+  font-family: 'Dancing Script', cursive;
+}
+
+
+
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: black;
+}
+
+.parallax-container {
+  
+  min-height: 450px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+    width: 100%;
+  }
+
+#as {
+  font-family: 'Dancing Script', cursive;
+  position: relative;top: 120px;
+  color: black;
+}
+
+#as-mobile {
+  font-family: 'Dancing Script', cursive;
+  color: black;
+}
+
+#index-banner .row {
+   position:relative;  top: 120px; left: 20px;
+   letter-spacing: 1em;
+   color: black;
+
+}
+
+#About h2 {
+
+  font-family: 'EB Garamond', serif;
+
+}
+
+#About p {
+
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  line-height: 14px;
+}
+
+#Portfolio h2{
+  font-family: 'EB Garamond', serif;
+}
+
+#Contact h2{
+  font-family: 'EB Garamond', serif;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  #title-position .row {
+	  top:0;
+	  }
+  
+  .parallax-container {
+  
+  min-height: -500px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+  
+}
+
+.icon-block {
+  padding: 14 0px;
+}
+
+
+#portfolio .imgport{
+	width:300px;
+	height:auto;
+		
+}
+
+footer.page-footer {
+  background-color: #262626;
+  margin: 0;
+}
+
+.portfolio .col
+{
+	margin-bottom: 24px;
+}
+
+.portfolio h4
+{
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.portfolio h5
+{
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.portfolio h6
+{
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+}
+
+.portfolio hr
+{
+	width: 40px;
+	margin-bottom: 45px;
+}
+
+.portfolio .portfolio-holder
+{
+	clear: both;
+	text-align: center;
+}
+
+.portfolio img
+{
+	width: 33%;
+	display: inline-block;
+	float: left;
+}
